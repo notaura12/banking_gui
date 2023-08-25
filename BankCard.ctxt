@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BankCard
+comment1.params=CardId\ IssuerBank\ BankAccount\ BalanceAmount
+comment1.target=BankCard(int,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=constructor\ is\ created\ which\ is\ used\ to\ create\ instance\ of\ the\ class\r\n\ we\ create\ constructor\ on\ class\ name\r\n\ it\ has\ no\ return\ type\r\n
+comment2.params=
+comment2.target=java.lang.String\ getClientName()
+comment2.text=using\ one\ of\ the\ pillar\ of\ OOP\ Encapsulation\r\n\ its\ is\ used\ as\ grouping\ of\ information\r\n\ it\ is\ done\ in\ the\ form\ of\ secure\ field\ accessible\ by\ onlt\ the\ member\ of\ the\ same\ class\r\n\ it\ uses\ getter\ and\ setter\ methods\ which\ returns\ value\ and\ spdates\ its\ values\r\n\ it\ protects\ your\ data\r\n
+comment3.params=
+comment3.target=java.lang.String\ getIssuerBank()
+comment4.params=
+comment4.target=int\ getBalanceAmount()
+comment5.params=
+comment5.target=int\ getCardId()
+comment6.params=
+comment6.target=java.lang.String\ getBankAccount()
+comment7.params=ClientName
+comment7.target=void\ setClientName(java.lang.String)
+comment7.text=setter\ method\ is\ used\ for\ these\ instance\ variables\ which\ updates\ and\ sets\ its\ value\r\n\ should\ not\ return\ a\ value\r\n\ because\ we\ are\ just\ just\ initializing\ the\ instance\ variables\r\n
+comment8.params=BalanceAmount
+comment8.target=void\ setBalanceAmount(int)
+comment9.params=
+comment9.target=void\ display()
+numComments=10

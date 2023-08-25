@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=DebitCard
+comment1.params=CardId\ IssuerBank\ BankAccount\ BalanceAmount\ PinNumber\ ClientName
+comment1.target=DebitCard(int,\ java.lang.String,\ java.lang.String,\ int,\ int,\ java.lang.String)
+comment1.text=constructor\ is\ created\ which\ is\ used\ to\ create\ instance\ of\ the\ class\r\n\ we\ create\ constructor\ on\ class\ name\r\n\ it\ has\ no\ return\ type\r\n
+comment2.params=
+comment2.target=int\ getPinNumber()
+comment2.text=using\ one\ of\ the\ pillar\ of\ OOP\ Encapsulation\r\n\ its\ is\ used\ as\ grouping\ of\ information\r\n\ it\ is\ done\ in\ the\ form\ of\ secure\ field\ accessible\ by\ onlt\ the\ member\ of\ the\ same\ class\r\n\ it\ uses\ getter\ and\ setter\ methods\ which\ returns\ value\ and\ spdates\ its\ values\r\n\ it\ protects\ your\ data\r\n
+comment3.params=
+comment3.target=int\ getWithdrawalAmount()
+comment4.params=
+comment4.target=java.lang.String\ getDateOfWithdrawal()
+comment5.params=
+comment5.target=boolean\ getHasWithdrawn()
+comment6.params=WithdrawalAmount
+comment6.target=void\ setWithdrawalAmount(int)
+comment6.text=setter\ method\ is\ used\ for\ these\ instance\ variables\ which\ updates\ and\ sets\ its\ value\r\n\ should\ not\ return\ a\ value\r\n\ because\ we\ are\ just\ just\ initializing\ the\ instance\ variables\r\n
+comment7.params=WithdrawalAmount\ DateOfWithdrawal\ PinNumber
+comment7.target=void\ Withdraw(int,\ java.lang.String,\ int)
+comment7.text=this\ is\ a\ condition\ made\ which\r\n\ will\ print\ output\ as\ "Invalid\ Pin"\ if\ pinnumber\ entered\ do\ not\ match\ the\ pin\ number\ given\r\n\ if\ pin\ number\ matches\ it\ goes\ next\ step\ where,amount\ withdrawn\ should\ be\ less\ then\ the\ amount\ u\ have\ in\ balanceamount.\r\n\ If\ (WithdrawalAmount\ >\=\ getBalanceAmount)\ then\ it\ will\ print\ "Insufficient\ balance"\r\n\ If\ (WithdrawalAmount\ <\=\ getBalanceAmount)\ then\ it\ will\ go\ to\ next\ step\ and\ withdraw\ the\ amount\r\n
+comment8.params=
+comment8.target=void\ display()
+numComments=9
